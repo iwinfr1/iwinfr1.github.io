@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning Web GIS</title>
+  </head>
+  <body>
+      <h1><em>>Assignments</em></h1>
+      <div>
+        <ol>
+          <li>Assignment 1</li>
+          <li>Assignment 2</li>
+          <li>Assignment 3</li>
+        </ol>
+        <a href="https://www.codecademy.com/">Need Help?</a>
+      </div>
+        <img src="http://wrikdj.com/wp/wp-content/uploads/2014/06/to-be-continued.jpg" />
+  </body>
+</html>
