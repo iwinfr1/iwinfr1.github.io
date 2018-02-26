@@ -1,6 +1,8 @@
 h1 {
   font-family: Georgia;
-  color: blue;
+  color: white;
+  background-color: black;
+  text-align: center;
 }
 .type {font-style: italic;}
 #status {font-style: bold}
