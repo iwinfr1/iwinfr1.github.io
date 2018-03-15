@@ -4,7 +4,7 @@ Url: 'iwinfr1.github.io/index.html',
 Desc: 'Introduction to web GIS Portfolio site',
 Title: 'Web GIS Portfolio',
 assignments: true
- 'assignment',
+ 'assignments',
  'Title',
  'Desc'
   ]
@@ -16,7 +16,7 @@ let projectArray = [
  'Introduction to web GIS Portfolio site',
  'Web GIS Portfolio',
  true, 
-['assignment', 'Desc', 'Title']
+['assignments', 'Desc', 'Title']
 ]
 
 let projectQuantity = 10
