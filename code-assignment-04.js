@@ -29,27 +29,3 @@ let projectlength = 120.3
 console.log('URL: ' + projectUrl)
 console.log('Title: ' + projectTitle)
 console.log('Desc: ' + projectDesc)
-
-let Assignment1 = {
-    title: "Book Assignment 02",
-    id: 1,
-    type: true
-}
-let Assignment2 = {
-    title: "Book Assignment 03";
-    id: 2
-    type: true
-}
-let assignments = [
-   assignment1,
-   assignment2
-]
-
-for (i=0; i<5; i++)
- 
-console.log('title ' + i + 'projectDesc ' + Assignment[i].Desc)
-console.log('assignments ' + i + ' id: ' + Assignment[i].quantity
-       
-if (assignment[i].type === true {
-  console.log('title ' + i + 'projectDesc ' + Assignment[i].Desc)
-}
