@@ -14,3 +14,7 @@ var latlngs = [
 var polyline = L.polyline(latlngs, {color: 'red'}).addTo(mymap);
 marker.bindPopup("<b>The Great Sphinx of Giza</b><br>A limestone statue of a reclining sphinx, a mythical creature with the body of a lion and the head of a human.").openPopup();
 polygon.bindPopup("<b>Pyramids of Giza</b><br>The pyramids of Giza consist of 3 great pyramids. The Great Pyramid, built by Khufu, which is the tallest. The Pyramid of Khafre, in the background and the Pyramid of Menkaure, positioned in the front. The Giza Pyramids were built to last forever.");
+function onMapClick(e) {
+    alert("You clicked the map at " + e.latlng);
+}
+mymap.on('click', onMapClick);
