@@ -6,7 +6,7 @@ var pharpolygon = L.polygon([
   [29.968548, 31.126652]
 ]).addTo(mymap);
 var pharaohIcon = L.icon({
-  iconUrl: 'iwinfr1.github.io/2000px-Pharaoh.svg.png',
+  iconUrl: '2000px-Pharaoh.svg.png',
   iconSize: [29, 60],
   iconAnchor: [12, 50],
   popupAnchor: [-3, -76]
