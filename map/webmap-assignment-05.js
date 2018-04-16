@@ -7,7 +7,7 @@ var topographic = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
 var newBasemaps = {
   'World Basemap': worldbasemap,
   'Street Basemap': streetbasemap,
-  'Topographic': topopraphic
+  'Topographic': topographic
 }
 L.control.layers(newBasemaps).addTo(mymap)
 
