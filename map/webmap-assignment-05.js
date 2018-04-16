@@ -2,12 +2,12 @@ var mymap = L.map('llmap').setView([30.450171, -91.123621], 12);
 
 var worldbasemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}').addTo(mymap);
 var streetbasemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}').addTo(mymap);
-var topographic = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}').addTo(mymap);
+var topographicbasemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}').addTo(mymap);
 
 var newBasemaps = {
   'World Basemap': worldbasemap,
   'Street Basemap': streetbasemap,
-  'Topographic': topographic
+  'Topographic': topographicbasemap
 }
 L.control.layers(newBasemaps).addTo(mymap)
 
