@@ -7,7 +7,7 @@ var topographicbasemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/res
 var newBasemaps = {
   'World Basemap': worldbasemap,
   'Street Basemap': streetbasemap,
-  'Topographic': topographicbasemap
+  'Topographic Basemap': topographicbasemap
 }
 L.control.layers(newBasemaps).addTo(mymap)
 
